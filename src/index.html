@@ -12,67 +12,67 @@
   </head>
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-      <fieldset>
+      <fieldset class="fieldset__block">
         <legend>Personal information</legend>
 
         <label class="lab">Surname:
           <input
-          type="text"
-          name="Surname"
-          minlength="2"
-          maxlength="30"
-          autocomplete="off">
+            type="text"
+            name="Surname"
+            minlength="2"
+            maxlength="30"
+            autocomplete="off">
         </label>
 
         <label class="lab">Name:
           <input
-          type="text"
-          name="Name"
-          autocomplete="off">
+            type="text"
+            name="Name"
+            autocomplete="off">
         </label>
 
         <label class="lab">How old are You?
           <input
-          type="number"
-          name="Age"
-          min="1"
-          max="100"
-          value="12">
+            type="number"
+            name="Age"
+            min="1"
+            max="100"
+            value="12">
         </label>
 
         <label class="lab">Full date of birth:
           <input
-        type="date"
-        name="BirthDate">
+            type="date"
+            name="BirthDate">
         </label>
 
         <label class="lab">I accept the term of the agreement
           <input
-          type="checkbox"
-          name="Agreement">
+            type="checkbox"
+            name="Agreement">
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fieldset__block">
         <legend>Registration</legend>
 
         <label class="lab">E-mail:
           <input
-          type="email"
-          name="Email"
-          placeholder="email@example.com"
-          required>
+            type="email"
+            name="Email"
+            placeholder="email@example.com"
+            required>
         </label>
 
         <label class="lab">Password:
           <input
-          type="password"
-          name="Password"
-          required>
+            type="password"
+            name="Password"
+            required>
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fieldset__block">
         <legend>An interesting fact about you!</legend>
 
         <div class="form-field lab">
@@ -83,7 +83,7 @@
               type="radio"
               name="Cats"
               value="yes">
-            Yes
+              Yes
           </label>
 
           <label>
@@ -91,20 +91,20 @@
               type="radio"
               name="Cats"
               value="no">
-            No
+              No
           </label>
         </div>
 
         <label class="lab">What is your favorite color?
           <input
-          type="color"
-          name="FavoriteColor">
+            type="color"
+            name="FavoriteColor">
         </label>
 
         <label class="lab">What time do you go to bed?
           <input
-          type="time"
-          name="GoToBed">
+            type="time"
+            name="GoToBed">
         </label>
 
         <label class="lab">
@@ -119,13 +119,13 @@
 
         <label class="lab">How do you rate our work?
           <input
-          type="range"
-          name="RateOurWork"
-          value="0">
+            type="range"
+            name="RateOurWork"
+            value="0">
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fieldset__block">
         <legend>Additional info:</legend>
 
         <label class="lab">
@@ -137,7 +137,7 @@
         <label class="lab">
           Would you recommend us?
 
-          <select name="Cars">
+          <select name="RecommendUs">
             <option value="Yes">yes</option>
             <option value="No">no</option>
           </select>
