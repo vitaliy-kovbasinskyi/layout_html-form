@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,iBACE,kBACF,CAEA,KACE,aAAc,CACd,kBACF,CAEA,gBACE,eACF","file":"style.139974df.css","sourceRoot":"..\\src","sourcesContent":[".fieldset__block {\n  margin-bottom: 20px;\n}\n\n.lab {\n  display: block;\n  margin-bottom: 10px;\n}\n\n.lab:last-child {\n  margin-bottom: 0;\n}\n"]}
